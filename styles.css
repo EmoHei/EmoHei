@@ -1,0 +1,41 @@
+/* Font Awsosome-------- */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css');
+
+
+body {
+    margin: 0;
+    padding: 0;
+   
+  }
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+  ol, ul {
+      list-style: none;
+  } 
+   nav ul li a{
+      text-decoration: none;
+  }
+  .boxes{
+    display: flex;
+ 
+  }
+  .box{
+    max-width: 30%;
+    display: flex;
+    flex-direction: column;
+  }
+  .box-img{
+  
+    width: 240px;
+    border: 1px solid pink;
+  }
+  img{
+    max-width: 100%;
+    object-fit: contain;
+  }
+  .title{
+    color: red;
+  }
